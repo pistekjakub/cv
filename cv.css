@@ -39,8 +39,16 @@ table.three td {
     text-align: center;
 }
 
+.nowrap
+{
+  white-space: pre;
+  vertical-align: top;
+  /* position: relative;
+  top: 5px; */
+}
+
 th {
-    width: 125px;
+    width: 130px;
     text-align: right;
     padding-right: 10px;
     vertical-align: top;
@@ -48,7 +56,6 @@ th {
 
 .container {
   width: 100%;
-  border: 1px solid;
 }
 .right {
   width: auto;
