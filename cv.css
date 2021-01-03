@@ -43,8 +43,8 @@ table.three td {
 {
   white-space: pre;
   vertical-align: top;
-  /* position: relative;
-  top: 5px; */
+  position: relative;
+  top: 7px;  
 }
 
 th {
@@ -137,9 +137,23 @@ span {
   background-color: rgb(229,20,0);
   border-radius: 50%;
 }
-.active {
-  background-color: rgb(248,196,8) !important;
+
+.list {
+  list-style:disc outside none;
+  display:list-item; 
 }
+
+.bullet {
+  position: relative;
+  display: inline-block;
+   top: 5px;
+  left: -10px; 
+  height: 8px;
+  width: 8px;
+  background-color: rgb(248,196,8);
+  border-radius: 50%;
+}
+
 .icon {
   width: 33px; 
   height: 33px;
